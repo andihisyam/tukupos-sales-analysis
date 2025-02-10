@@ -21,3 +21,9 @@ Analisis ini bertujuan untuk:
      - Produk A dan Produk B sering dibeli bersamaan, dengan *confidence* sebesar **75%**.
      - Kombinasi **Produk C + Produk D** memiliki *support* tertinggi di kategori barang rumah tangga.
    - **Rekomendasi Bundling:** Berdasarkan hasil Apriori, disarankan untuk membuat paket penjualan antara **Produk A** dan **Produk B**.
+  
+## 🔒 Tentang Data
+Data yang digunakan dalam proyek ini bersifat **sensitif** karena berkaitan dengan informasi penjualan perusahaan UMKM yang terdaftar di **TUKUPOS**. Oleh karena itu, data asli **tidak disertakan** dalam repository ini untuk menjaga privasi perusahaan terkait.
+
+Jika Anda ingin menjalankan analisis ini dengan data sendiri, silakan gunakan format data serupa seperti yang dijelaskan di bagian di bawah ini.
+

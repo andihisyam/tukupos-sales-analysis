@@ -22,5 +22,24 @@ Analisis ini bertujuan untuk:
    - **Rekomendasi Bundling:** Berdasarkan hasil Apriori, disarankan untuk membuat paket penjualan antara **Produk A** dan **Produk B**.
   
 ## 🔒 Tentang Data
-Data yang digunakan dalam proyek ini bersifat **sensitif** karena berkaitan dengan informasi penjualan perusahaan UMKM yang terdaftar di **TUKUPOS**. Oleh karena itu, data asli **tidak disertakan** dalam repository ini untuk menjaga privasi perusahaan terkait.
+Data yang digunakan dalam analisis ini memiliki format sebagai berikut:
+
+| ID  | Tanggal     | Trans ID  | Konsumen     | Nama Produk  | Kategori        | Qty  |
+|-----|-------------|-----------|--------------|--------------|-----------------|------|
+| 1   | 2023-01-01  | TRX001    | Konsumen A   | Produk A     | Minuman         | 2    |
+| 2   | 2023-01-01  | TRX002    | Konsumen B   | Produk B     | Makanan Ringan  | 1    |
+| 3   | 2023-01-02  | TRX003    | Konsumen C   | Produk A     | Minuman         | 3    |
+| 4   | 2023-01-02  | TRX004    | Konsumen D   | Produk C     | Alat Rumah Tangga | 1  |
+| 5   | 2023-01-03  | TRX005    | Konsumen E   | Produk B     | Makanan Ringan  | 4    |
+
+### Penjelasan Kolom:
+- **ID:** Nomor urut data.
+- **Tanggal:** Tanggal transaksi dilakukan.
+- **Trans ID:** ID unik untuk setiap transaksi.
+- **Konsumen:** Nama atau identitas konsumen.
+- **Nama Produk:** Produk yang dibeli dalam transaksi.
+- **Kategori:** Kategori produk (misalnya Minuman, Makanan Ringan, Alat Rumah Tangga, dll).
+- **Qty:** Jumlah produk yang dibeli.
+
+Data asli **tidak disertakan** dalam repository ini karena alasan privasi. Anda dapat menggunakan data dengan format serupa untuk menjalankan analisis.
 

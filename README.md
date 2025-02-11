@@ -9,17 +9,37 @@ Analisis ini bertujuan untuk:
 - Menentukan produk terlaris dan waktu penjualan terbaik.
 - Memberikan insight bagi UMKM untuk mengoptimalkan strategi bisnis mereka.
 
-## 📈 Hasil Analisis Utama
+## 📈 Analisis Deret Waktu
+Analisis deret waktu dilakukan untuk memahami tren dan pola musiman dalam penjualan, dengan hasil utama sebagai berikut:
 
-1. **Analisis Deret Waktu (Time Series Analysis):**  
-   - **Tren Penjualan:** Tidak terdapat peningkatan penjualan.
-   - **Waktu Penjualan Terbaik:** Penjualan tertinggi terjadi pada hari **Jumat**.
+1. Memahami Pola Musiman Penjualan:
+- Identifikasi pola musiman dari data historis penjualan.
+- Analisis faktor-faktor yang mempengaruhi tren musiman, seperti event atau musim tertentu.
 
-2. **Analisis Asosiasi dengan Algoritma Apriori:**  
-   - **Produk Terlaris dan Kombinasi Penjualan:**  
-     - Produk A dan Produk B sering dibeli bersamaan
-     - Kombinasi **Produk C + Produk D** memiliki *support* tertinggi di kategori barang rumah tangga.
-   - **Rekomendasi Bundling:** Berdasarkan hasil Apriori, disarankan untuk membuat paket penjualan antara **Produk A** dan **Produk B**.
+2. Fokus pada Penjualan Saat Musim Tinggi:
+- Optimalisasi strategi pemasaran dan operasional saat permintaan tinggi.
+- Memastikan ketersediaan stok dan kapasitas produksi yang memadai.
+- Mengalokasikan sumber daya secara efektif untuk memenuhi lonjakan permintaan.
+
+3. Menciptakan Permintaan di Luar Musim Tinggi:
+- Menawarkan diskon dan promosi untuk mendorong penjualan di luar musim.
+- Memanfaatkan media sosial dan digital marketing untuk menjangkau pelanggan potensial.
+- Mengembangkan program loyalitas pelanggan untuk meningkatkan retensi.
+
+4. Mengoptimalkan Operasional dan Efisiensi Biaya:
+- Mengatur inventori dan rantai pasokan untuk meminimalkan biaya.
+- Mengautomasi proses operasional guna meningkatkan efisiensi.
+
+## 🔗 Analisis Apriori (Market Basket Analysis)
+Analisis Apriori digunakan untuk menemukan pola asosiasi antar produk berdasarkan perilaku konsumen, dengan insight utama sebagai berikut:
+
+1. Penataan Rak yang Efisien:
+- Produk dengan hubungan kuat berdasarkan antecedent dan consequent dari analisis Apriori ditempatkan berdekatan untuk meningkatkan penjualan.
+- Penataan ini membantu konsumen menemukan produk lebih mudah dan mendorong pembelian impulsif.
+
+2. Strategi Bundling dan Promosi Berdasarkan Pola Pembelian:
+- Produk yang sering dibeli bersama dapat dijadikan bundling atau paket promo.
+- Strategi ini dapat meningkatkan transaksi dan memaksimalkan keuntungan melalui cross-selling.
   
 ## 🔒 Tentang Data
 Data yang digunakan dalam analisis ini memiliki format sebagai berikut:
